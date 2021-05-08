@@ -9,6 +9,8 @@ import java.time.LocalDate;
 @Table(name = "tb_sales")
 @Data
 @Builder
+@AllArgsConstructor
+@NoArgsConstructor
 public class Sale {
 
     @Id
