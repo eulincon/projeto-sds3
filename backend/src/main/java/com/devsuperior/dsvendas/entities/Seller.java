@@ -9,6 +9,8 @@ import java.util.List;
 @Table(name = "tb_sellers")
 @Builder
 @Data
+@AllArgsConstructor
+@NoArgsConstructor
 public class Seller {
 
     @Id @GeneratedValue(strategy = GenerationType.IDENTITY)
